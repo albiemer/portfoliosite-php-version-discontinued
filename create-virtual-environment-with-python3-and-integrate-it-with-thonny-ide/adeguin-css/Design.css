@@ -1,0 +1,1169 @@
+/*  start of css */
+
+body{
+
+width: auto;
+Background-color: 	rgba(44,58,60,0.12);
+}
+
+
+.headofpage{
+
+border: 		0px solid black;
+padding:	2px;
+Background-color: 	rgba(135,206,250,0);
+opacity:		1.0;
+height: 50px;
+border-radius:	10px 10px 0px 0px;
+color: white;
+font-size: 20px;
+
+}
+
+.mainlogo{
+
+margin-top: 1%;
+
+}
+
+
+/* social code */
+
+.social_fb{
+
+position:	absolute;
+margin-left: 110px;
+margin-top:	0px;
+padding: 1px;
+background:	none;
+color:		#ggg;
+min-height:	20px;
+width:70px;
+border: 0px solid black;
+text-align:	center;
+
+}
+
+.social_twitter{
+
+position:	absolute;
+margin-left: 10px;
+margin-top:	0px;
+padding: 1px;
+background:	none;
+color:		#ggg;
+min-height:	20px;
+width:70px;
+border: 0px solid black;
+text-align:	center;
+
+}
+
+.social_google{
+
+position:	absolute;
+margin-left: 210px;
+margin-top:	0px;
+padding: 1px;
+background:	none;
+color:		#ggg;
+min-height:	20px;
+width:70px;
+border: 0px solid black;
+text-align:	center;
+
+}
+
+
+/* social end */
+
+.navigation{
+
+background-image: url("/images/90.gif");
+margin-top: 0px;
+padding-top: 0px;
+border: 1px solid green;
+height: 400px;
+Background-color: none;
+font-family: calibri;
+position: relative;
+
+}
+
+.navigation a{
+
+float: left;
+font-style: calibri;
+padding: 5px 5px 5px 10px;
+font-size: 20px;
+text-decoration : none;
+color:	green;
+
+}
+
+.navigation a:hover{
+
+padding: 5px 5px 5px 10px;
+font-size: 20px;
+text-decoration : none;
+font-family: calibri;
+border-bottom: 3px solid blue;
+color: white;
+
+
+}
+
+.navigation .active{
+
+padding: 5px 5px 5px 10px;
+font-size: 20px;
+text-decoration : none;
+color:	white;
+border-bottom: 3px solid orange;
+
+}
+
+
+
+.left a, .right a{
+
+font-family: calibri;
+padding: 1px;
+font-size: 15px;
+text-decoration : none;
+color:	black;
+
+
+
+}
+
+.left a:hover, .right a:hover{
+
+
+text-decoration : 	none;
+color : 		red;
+Background-color:	none;
+
+
+}
+
+
+.linkshow{
+
+border:				0px solid black;
+background-color:	none;
+padding: 10px 10px 0px 0px;
+min-width: auto;
+min-height: 0px;
+
+}
+
+.linkshowhref{
+
+text-decoration: none;
+
+}
+
+.left{
+
+text-align:			none;
+border:				0px solid black;
+border-radius:		2px;
+background-color:	rgba(255,255,255, 0.2); 245-255-250
+/*color:				black; */
+box-shadow:			-1px -1px 1px 1px rgba(0,0,0,0.0);
+margin:	0px 10px 1px auto;
+height: auto;
+float: left;
+width: 18%;
+
+}
+
+.left h4{
+
+padding: 1px;
+background-color: black;
+color: white;
+}
+
+
+.center{
+padding: 2%;
+margin: 0px 0px 0px 0px;
+border:				0px solid black;
+display: inline-block;
+width: 55%;
+font-size:	15px;
+background-color:	white;
+height: auto;
+
+
+}
+
+.container_signup{
+
+width: auto;
+margin: 1%;
+height: 712px;
+border:	1px solid black;
+background-color: lightblue;
+
+}
+
+.signup_form{
+
+margin: 1%;
+float: left;
+
+}
+
+.signupads{
+
+border:	1px solid black;
+height: 70%;
+margin: 10% 1% 10% 45%;
+width: 50%;
+
+
+}
+
+hr{
+
+min-width: 50px;
+
+}
+
+.right{
+
+text-align:			none;
+border:				0px solid black;
+border-radius:		2px;
+/* background-color:	rgba(245,255,250, 0.2); */
+color:				black;
+box-shadow:			-1px -1px 1px 1px rgba(0,0,0,0);
+padding: 5px 20px 20px 20px;
+margin: 0px 0px 1px auto;
+
+float: right; 
+width: 17%;
+min-height: 150px;
+
+}
+
+.right .myform{
+
+width: auto;
+padding: 0px;
+}
+
+
+
+.right h3{
+
+padding-top: 0px;
+
+}
+
+
+footer{
+
+position:	relative;
+margin-top:	auto;
+padding: 5px;
+/* background:	rgba(135,206,250,0.4); */
+color:	green;	/*#ggg;*/
+height:	100px;
+border-radius:	0px 0px 10px 10px;
+border: 0px solid black;
+text-align:	center;
+
+}
+
+footer .Privacy_Policy, .Terms_And_Conditions, .Disclaimer, .Notice, .copyright{
+
+font-size:			13px;
+text-decoration:	none;
+color:				green;
+
+
+
+
+}
+
+footer .Privacy_Policy:hover, .Terms_And_Conditions:hover, .Disclaimer:hover{
+
+font-size:			13px;
+text-decoration:	none;
+color:				red;
+
+
+
+
+}
+
+
+/* Comment form design */
+
+.commentbox{
+
+padding:5px;
+resize: none;
+width: 70%;
+
+height: 10em;
+
+}
+
+.comment_style{
+
+text-align:			none;
+border:				1px solid black;
+border-radius:		2px;
+background-color:	rgba(245,255,250, 0.2);
+color:				black;
+box-shadow:			-1px -1px 1px 1px rgba(0,0,0,0.4);
+padding: 20px;
+margin: 0px 0px 0px 0px;
+font-size: 13px;
+
+width: 93%;
+min-height:auto;
+
+
+}
+
+
+.comment_box{
+
+text-align:			none;
+border:				1px solid black;
+border-radius:		2px;
+background-color:	rgba(245,255,250, 0.2);
+color:				black;
+box-shadow:			-1px -1px 1px 1px rgba(0,0,0,0.4);
+padding: 20px;
+margin: 0px 0px 20px 0px;
+font-size: 13px;
+
+width: 93%;
+min-height:auto;
+
+
+}
+
+
+/* .textareacomment{
+
+width: 100%;
+height: 400%;
+
+
+}
+
+*/
+
+.delete_hyperlink{
+
+
+font-size: 12px;
+text-decoration : none;
+color:	black;
+
+}
+
+.delete_hyperlink:hover{
+
+font-size: 12px;
+text-decoration : 	none;
+color : 		blue;
+Background-color:	none;
+
+}
+
+.reply_to_albiemer{
+
+font-size: 12px;
+text-decoration : none;
+color:	black;
+
+}
+
+.reply_hyperlink{
+
+font-size: 12px;
+text-decoration : none;
+color:	black;
+
+}
+
+.reply_to_albiemer:hover{
+
+font-size: 12px;
+text-decoration : 	none;
+color : 		blue;
+Background-color:	none;
+
+}
+
+.reply_hyperlink:hover{
+
+font-size: 12px;
+text-decoration : 	none;
+color : 		blue;
+Background-color:	none;
+
+}
+
+.comment_image{
+
+width: 80%;
+height: 10%;
+border-radius:	60px;
+
+
+}
+.comment_head{
+
+
+text-align:			none;
+border:				0px solid black;
+background-color:	rgba(245,255,250, 0.2);
+color:				black;
+rgba(0,0,0,0.4);
+padding: 5px;
+margin: 0px 0px 20px 0px;
+
+float: left; 
+width: 24%;
+height: 125%;
+
+}
+
+.comment_content{
+
+resize: none;
+text-align:			none;
+border:				1px solid black;
+border-radius:		2px;
+background-color:	rgba(245,255,250, 0.2);
+color:				black;
+box-shadow:			-1px -1px 1px 1px rgba(0,0,0,0.4);
+padding: 5px;
+margin: 0px 0px 0px auto;
+
+width: 70%;
+height:150px;
+
+
+}
+
+.comment_content_reply{
+
+resize: none;
+text-align:			none;
+border:				1px solid black;
+border-radius:		2px;
+background-color:	rgba(245,255,250, 0.2);
+color:				black;
+box-shadow:			-1px -1px 1px 1px rgba(0,0,0,0.4);
+padding: 5px;
+margin: 0px 0px 0px 0px;
+
+width: 45%;
+height:10px;
+float: right;
+
+}
+
+
+.comment_image_reply{
+
+margin: 0px 0px 0px 100%;
+width: 30%;
+height: 20%;
+border-radius:	0px;
+
+}
+
+.emailincomment, .nameincomment, .websiteincomment{
+
+width:	100%;
+
+}
+
+/* registration formmodal design */
+
+.regnamemodal, .regemailmodal{
+
+margin-left: 0px;
+margin-right: 0px;
+marin-top: 30px;
+width: 400px;
+height: 50px;
+
+}
+
+.myformbuttonmodal{
+
+margin-left: 0px;
+width: 404px;
+height: 40px;
+
+}
+
+.myformh3modal{
+
+
+width: 300px;
+height: 40px;
+
+
+}
+
+.deleteconfirmlabel{
+
+margin: auto;
+width: 300px;
+height: 40px;
+
+}
+
+.signinname, .signinpass {
+
+width: 97%;
+
+
+}
+
+.myformbutton{
+
+
+
+min-width:		100%;
+
+
+}
+
+/* registration formmodal design end */
+
+
+/* comment for Product design */
+
+.image {
+    margin: 10px;
+    padding: 5px;
+    border: none;
+    min-zheight:250px;
+    width: auto;
+    float: left;
+    text-align: center;
+	box-shadow:	0px 0px 0px 0px rgba(135,206,250,0.4);
+}
+
+.image:hover {
+    margin: 10px;
+    padding: 5px;
+    border: none;
+    height: auto;
+    width: auto;
+    float: left;
+    text-align: center;
+	box-shadow:	1px 1px 5px 5px rgba(135,206,250,0.4);
+}
+
+
+.image img {
+
+    width:30px;
+    margin: 1px;
+	
+}
+
+
+
+.desc {
+  
+    font-weight: normal;
+    width: 200px;
+    margin: 1px;
+}
+
+/* form style */
+
+
+.searchform{
+
+margin-left:	0px;
+
+}
+
+.signin{
+
+float: left;
+
+}
+
+.Signup{
+
+
+float: right;
+
+}
+
+.signinsignup{
+
+margin-left: 5%;
+margin-right: 5%;
+
+}
+
+
+/* this is a landing offers table */
+
+table {
+    width:100%;
+}
+table, th, td {
+  
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+.t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+.t01 tr:nth-child(odd) {
+   background-color:#fff;
+}
+.t01 th	{
+
+	height:	40px;
+    Background-color: 	rgba(135,206,250,0.4);
+    color: black;
+}
+
+/* accordion code */
+
+/*
+*
+*    Author:    Michael Raffaele <michael@mraffaele.com>
+*    Date:    25th October 2011
+*    Info:     http://www.mraffaele.com/blog/2011/10/25/css-accordion-no-javascript/
+*
+*/
+
+/* Shared for all accordion types */
+.accordion {
+    font-family:Arial, Helvetica, sans-serif; 
+    margin:0px;
+    font-size:14%;
+    border:0px solid #542437;
+    border-radius:10px;
+    width:180%;
+    padding:3px;
+    background:	none;
+}
+.accordion ul {
+    list-style:none;
+    margin:0;
+    padding:0;    
+}
+.accordion li {
+    margin:0;
+    padding:0;
+}
+.accordion [type=radio], .accordion [type=checkbox] {
+    display:none;
+}
+.accordion label {
+    display:block;
+    font-size:600%;
+    line-height:16px;
+    background:none;
+    border:0px solid #542437; /* dont care about */
+    color:	black;
+    text-shadow:1px 1px 1px rgba(255,255,255,0.3);
+    font-weight:700;
+    cursor:pointer;
+	text-decoration: none;
+    text-transform:uppercase;
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+}
+.accordion ul li label:hover, .accordion [type=radio]:checked ~ label, .accordion [type=checkbox]:checked ~ label {
+    background:none;
+    color: black;
+    text-shadow:1px 1px 1px rgba(0,0,0,0.5)
+}
+.accordion .content {
+    padding:0 10px;
+    overflow:hidden;
+    border:0px solid #fff; /* Make the border match the background so it fades in nicely */
+    -webkit-transition: all .5s ease-out;
+    -moz-transition: all .5s ease-out;
+}
+.accordion p {
+    color:#333;
+    margin:0 0 10px;
+}
+.accordion h3 {
+    color:#542437;
+    padding:0;
+    margin:10px 0;
+}
+
+
+/* Vertical */
+.vertical ul li {
+    overflow:hidden;
+    margin:0 0 1px;
+}
+.vertical ul li label {
+    padding:10px;
+}
+.vertical [type=radio]:checked ~ label, .vertical [type=checkbox]:checked ~ label {
+    border-bottom:0;
+}
+.vertical ul li label:hover {
+    border:0px solid #542437; /* We don't want the border to disappear on hover */
+}
+.vertical ul li .content {
+    height:0px;
+    border-top:0;
+}
+.vertical [type=radio]:checked ~ label ~ .content, .vertical [type=checkbox]:checked ~ label ~ .content {
+    height:100px;
+    border:0px solid #542437;
+}
+
+/* accordion ends */
+
+/* dialog box style */
+
+.modalDialog { /* styling */
+	
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(255,255,255,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+	
+}
+
+.modalDialog:target { /* functionality and look */
+	opacity:1;
+	pointer-events: auto;
+}
+
+.modalDialog > div {
+	width: 400px;
+	position: relative;
+	margin: 10% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 10px;
+	background: #fff;
+	background: -moz-linear-gradient(#fff, #999);
+	background: -webkit-linear-gradient(#fff, #999);
+	background: -o-linear-gradient(#fff, #999);
+}
+
+
+.close { /* closing dialog box */
+	background: #606061;
+	color: #FFFFFF;
+	line-height: 25px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -10px;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+}
+
+.close:hover { background: #00d9ff; }
+
+.errordeletioncomment{
+	
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(255,255,255,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+
+}
+
+/* dialog box style ends */
+
+.textareareplycomment{
+
+	border: none;
+	background-color: transparent;
+	resize: none;
+    outline: none;
+    width: 100%;
+}
+
+/* End of css */
+
+
+/*edit style button */
+
+.clkedit, .clkdel{
+
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+
+
+}
+
+.clkedit:hover, .clkdel:hover{
+
+
+background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+	color: blue;
+
+
+}
+
+.modalDialogedit { /* styling */
+	
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	top: 20%;
+	right: 20%;
+	bottom: 30%;
+	left: 20%;
+	background: rgba(255,255,255,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+	/*border:10px solid #542437;*/
+	
+	
+}
+
+.modalDialogedit:target { /* functionality and look */
+	opacity:1;
+	pointer-events: auto;
+}
+
+.modalDialogedit > div {
+	
+	position: relative;
+	margin: 10%;
+	padding: 30px;
+	border-radius: 10px;
+	background: #fff;
+	background: -moz-linear-gradient(#fff, #999);
+	background: -webkit-linear-gradient(#fff, #999);
+	background: -o-linear-gradient(#fff, #999);
+}
+
+/* .comment_imageedit{
+
+width: 80%;
+height: 20%;
+border-radius:	60px;
+
+} */
+
+
+.comment_content_edit{
+
+resize: none;
+text-align:			none;
+border:				1px solid black;
+border-radius:		2px;
+background-color:	rgba(245,255,250, 0.2);
+color:				black;
+box-shadow:			-1px -1px 1px 1px rgba(0,0,0,0.4);
+padding: 5px;
+margin: 0px 0px 0px auto;
+
+width: 70%;
+height:150px;
+
+
+}
+
+.modalDialogedit2 { /* styling */
+	
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	top: 5%;
+	right: 10%;
+	bottom: 10%;
+	left: 10%;
+	background: rgba(255,255,255,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+	border:10px solid green;
+	padding: 10% 10% 20% 10%;
+	
+	
+}
+
+.modalDialogedit2:target { /* functionality and look */
+	opacity:1;
+	pointer-events: auto;
+}
+
+a.disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+
+div.fb-root {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: green;
+  padding: 10px 10px 0px 10px;
+  font-size: 15px;
+  color: white;
+}
+
+.movtotop{
+
+float: right;
+
+}
+
+.homeimage{
+
+height: 200%;
+width: 100%;
+
+
+}
+
+.homeright{
+
+text-align:			none;
+border:				0px solid black;
+border-radius:		2px;
+/* background-color:	rgba(245,255,250, 0.2); */
+color:				black;
+box-shadow:			-1px -1px 1px 1px rgba(0,0,0,0);
+padding: 20px;
+margin: 0px 0px 1px auto;
+
+float: right; 
+width: 17%;
+min-height: 150px;
+
+}
+
+.homeright .myform{
+
+width: auto;
+padding: 0px;
+}
+
+
+
+.homeright h3{
+
+padding-top: 0px;
+
+}
+
+/* menu icon */
+
+.mymenu {
+  display: inline-block;
+  cursor: pointer;
+  float: right;
+  margin-right: 2%;
+  
+}
+
+.bar1 {
+  width: 25px;
+  height: 10px;
+  background-color: red;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.bar2 {
+  width: 60px;
+  height: 10px;
+  background-color: pink;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.bar3 {
+  width: 40px;
+  height: 10px;
+  background-color: yellow;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.bar1:hover {
+  width: 25px;
+  height: 10px;
+  background-color: pink;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.bar2:hover {
+  width: 60px;
+  height: 10px;
+  background-color: yellow;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.bar3:hover {
+  width: 40px;
+  height: 10px;
+  background-color: red;
+  margin: 6px 0;
+  transition: 0.4s;
+
+}
+
+.change .bar1 {
+ /* -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-15px, 6px); */
+  
+  width: 40px;
+  background-color: yellow;
+  
+}
+
+.change .bar2 {
+
+/*opacity: 0;*/
+
+width: 20px;
+background-color: red;
+
+}
+
+.change .bar3 {
+ /* -webkit-transform: rotate(45deg) translate(-10px, -10px);
+  transform: rotate(45deg) translate(-15px, -10px);*/
+
+	width: 60px;
+	background-color: pink;
+
+}
+
+.change .bar1:hover {
+ /* -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-15px, 6px); */
+
+  background-color: pink;
+  
+}
+
+.change .bar2:hover {
+
+/*opacity: 0;*/
+
+background-color: yellow;
+
+}
+
+.change .bar3:hover {
+ /* -webkit-transform: rotate(45deg) translate(-10px, -10px);
+  transform: rotate(45deg) translate(-15px, -10px);*/
+
+
+	background-color: red;
+
+}
+
+/* my sidenav */
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
